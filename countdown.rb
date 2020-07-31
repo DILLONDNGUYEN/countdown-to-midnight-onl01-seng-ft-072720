@@ -10,11 +10,11 @@
 def countdown(num)
   num = 10
   while num > 0
-    puts '{num} SECOND(S)!'
+    puts "{num} SECOND(S)!"
     num -= 1
   break if num == 0
   end
-puts 'HAPPY NEW YEAR!'
+puts "HAPPY NEW YEAR!"
 end
 countdown(10)
 
@@ -22,11 +22,11 @@ countdown(10)
 def countdown_with_sleep(num)
   num = 10
   while num > 0
-    puts '#{num} SECOND(S)!'
+    puts "#{num} SECOND(S)!"
     num -= 1 
     sleep(1)
   break if num ==0
   end
-puts 'HAPPY NEW YEAR!'
+puts "HAPPY NEW YEAR!"
 end
 countdown(10)
